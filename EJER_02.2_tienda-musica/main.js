@@ -13,7 +13,7 @@ console.log('Más baratos:', tienda.tresMasBaratos(catalogo));
 console.log('\n===== 2 y 3. BÚSQUEDAS Y CÁLCULOS =====');
 console.log('Agotados:', tienda.agotados(catalogo));
 console.log('Entre 25 y 35 €:', tienda.productosEntre(catalogo, 25, 35).map((p) => p.nombre));
-console.log('Más caro:', tienda.productoMasCaro(catalogo).nombre);
+console.log('Más :', tienda.productoMasCaro(catalogo).nombre);
 console.log('Valor del almacén:', tienda.valorAlmacen(catalogo), '€');
 console.log('Unidades por categoría:', tienda.unidadesPorCategoria(catalogo));
 
